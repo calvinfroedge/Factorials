@@ -1,3 +1,5 @@
+import sys
+
 def factorial(number):
 
 	product = 1
@@ -12,5 +14,5 @@ def factorial(number):
 
 	return product
 
-number = input("Enter an integer, fool:")
+number = int(sys.argv[1])
 print(factorial(number))
